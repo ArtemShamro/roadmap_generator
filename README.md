@@ -29,4 +29,5 @@ GROQ_API_KEY=<your_api_key>
 
 ## 🎯 Демонстрация
 
-[Watch the video](https://raw.githubusercontent.com/ArtemShamro/roadmap_generator/master/assets/prev.mp4)
+https://github.com/user-attachments/assets/a34a8a65-c2ed-4aef-aea8-46c135ccde1c
+
