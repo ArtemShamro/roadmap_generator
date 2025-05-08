@@ -9,7 +9,20 @@
 - сервис генерации roadmap по запросу пользователя. (используется api Grok с моделью llama3-70b-8192)
 - frontend на React для доступа к функционалу сервиса.
 
----
+
+## 🛠 Технологии
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python)
+![asyncio](https://img.shields.io/badge/asyncio-Python_3.11-3776AB?style=flat&logo=python)
+![FastAPI](https://img.shields.io/pypi/v/fastapi?color=009688&label=FastAPI&logo=fastapi)
+![sentence-transformers](https://img.shields.io/pypi/v/sentence-transformers?color=green&label=sentence--transformers)
+![Grok API](https://img.shields.io/badge/Grok_API-xAI-FF4500?style=flat)
+![OpenAI](https://img.shields.io/pypi/v/openai?color=412991&label=OpenAI)
+![FAISS](https://img.shields.io/badge/FAISS-1.8.0-blue?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12.1-336791?style=flat&logo=postgresql)
+![Redis](https://img.shields.io/badge/Redis-7.2-DC382D?style=flat&logo=redis)
+![Kafka](https://img.shields.io/badge/Kafka-3.7.0-231F20?style=flat&logo=apachekafka)
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat&logo=react)
+![Docker](https://img.shields.io/badge/Docker-24.0.7-2496ED?style=flat&logo=docker)
 
 ## 🚀 Запуск
 
