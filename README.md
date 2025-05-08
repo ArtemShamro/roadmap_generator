@@ -29,6 +29,4 @@ GROQ_API_KEY=<your_api_key>
 
 ## 🎯 Демонстрация
 
-<video src="assets/prev.mp4" controls loop autoplay muted width="600">
-  Ваш браузер не поддерживает воспроизведение видео.
-</video>
+[Watch the video](https://raw.githubusercontent.com/ArtemShamro/roadmap_generator/master/assets/prev.mp4)
