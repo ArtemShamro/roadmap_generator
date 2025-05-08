@@ -1,0 +1,8 @@
+service:
+  name: sim_service
+  port: 8000
+
+kafka:
+  topic: "scrapping"
+  brokers: "kafka:29092"
+  group_id: "sim-consumer-group"

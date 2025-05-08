@@ -1,0 +1,143 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+}
+
+.panel {
+  position: fixed;
+  top: 0;
+  /* right: -800px; Увеличена ширина */
+  width: 800px; /* Новая ширина панели */
+  height: 100%;
+  background: #ffffff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 2001;
+  transition: right 0.3s ease-in-out;
+}
+
+.panel.open {
+  right: 0;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.closeButton:hover {
+  color: #007bff;
+}
+
+.content {
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.content p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
+
+.substeps {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.substeps li {
+  font-size: 0.95rem;
+  color: #34495e;
+  padding: 0.5rem 0;
+  border-left: 2px solid #e0e0e0;
+  padding-left: 1rem;
+}
+
+.articles {
+  list-style: none;
+  padding: 0;
+}
+
+.articleItem {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.articleItem:last-child {
+  border-bottom: none;
+}
+
+.articleLink {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2c3e50;
+  text-decoration: none;
+  display: block;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.articleLink:hover {
+  color: #007bff;
+  transform: translateX(2px);
+}
+
+.articlePreview {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  margin-top: 0.25rem;
+  line-height: 1.4;
+}
+
+.noArticles {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  padding: 0.75rem 0;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .panel {
+    width: 90%; /* Увеличена ширина на мобильных */
+    right: -90%;
+  }
+
+  .panel.open {
+    right: 0;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .articleLink {
+    font-size: 0.9rem;
+  }
+
+  .articlePreview {
+    font-size: 0.8rem;
+  }
+}
